@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E90069F1D87ABA6006B4DB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90069E1D87ABA6006B4DB0 /* main.m */; };
+		8E9006A21D87ABA6006B4DB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9006A11D87ABA6006B4DB0 /* AppDelegate.m */; };
+		8E9006A81D87ABA6006B4DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9006A61D87ABA6006B4DB0 /* Main.storyboard */; };
+		8E9006AA1D87ABA6006B4DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9006A91D87ABA6006B4DB0 /* Assets.xcassets */; };
+		8E9006AD1D87ABA6006B4DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9006AB1D87ABA6006B4DB0 /* LaunchScreen.storyboard */; };
+		8E9006B81D87ABA6006B4DB0 /* FYCoreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9006B71D87ABA6006B4DB0 /* FYCoreAnimationTests.m */; };
+		8E9A530B1D92278000E1BCB1 /* TestCornerRadiusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A530A1D92278000E1BCB1 /* TestCornerRadiusViewController.m */; };
+		8E9A53111D92695400E1BCB1 /* SolidObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A53101D92695400E1BCB1 /* SolidObjectViewController.m */; };
+		8E9A53131D926AA500E1BCB1 /* SolidObjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9A53121D926AA500E1BCB1 /* SolidObjectViewController.xib */; };
+		8E9F23DA1DC9790300113326 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F23D91DC9790300113326 /* MainViewController.m */; };
+		8EA4724E1D8F8CEA00465679 /* AffineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4724D1D8F8CEA00465679 /* AffineViewController.m */; };
+		8EB1915E1D8E312A0036320F /* AnchorPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB191571D8E312A0036320F /* AnchorPointViewController.m */; };
+		8EB1915F1D8E312A0036320F /* CustomDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB191591D8E312A0036320F /* CustomDrawingViewController.m */; };
+		8EB191601D8E312A0036320F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1915B1D8E312A0036320F /* ViewController.m */; };
+		8EB191611D8E312A0036320F /* VisualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1915D1D8E312A0036320F /* VisualViewController.m */; };
+		8EB191641D8E3B8D0036320F /* MaskingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB191631D8E3B8D0036320F /* MaskingViewController.m */; };
+		8EBC24721DC2230600EFA3E6 /* CAShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBC24711DC2230600EFA3E6 /* CAShapeLayerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E9006B41D87ABA6006B4DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E9006921D87ABA6006B4DB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E9006991D87ABA6006B4DB0;
+			remoteInfo = FYCoreAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E90069A1D87ABA6006B4DB0 /* FYCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E90069E1D87ABA6006B4DB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E9006A01D87ABA6006B4DB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E9006A11D87ABA6006B4DB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E9006A71D87ABA6006B4DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E9006A91D87ABA6006B4DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E9006AC1D87ABA6006B4DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E9006AE1D87ABA6006B4DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9006B31D87ABA6006B4DB0 /* FYCoreAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYCoreAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9006B71D87ABA6006B4DB0 /* FYCoreAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYCoreAnimationTests.m; sourceTree = "<group>"; };
+		8E9006B91D87ABA6006B4DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9A53091D92278000E1BCB1 /* TestCornerRadiusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCornerRadiusViewController.h; sourceTree = "<group>"; };
+		8E9A530A1D92278000E1BCB1 /* TestCornerRadiusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCornerRadiusViewController.m; sourceTree = "<group>"; };
+		8E9A530F1D92695400E1BCB1 /* SolidObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolidObjectViewController.h; sourceTree = "<group>"; };
+		8E9A53101D92695400E1BCB1 /* SolidObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolidObjectViewController.m; sourceTree = "<group>"; };
+		8E9A53121D926AA500E1BCB1 /* SolidObjectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SolidObjectViewController.xib; sourceTree = "<group>"; };
+		8E9F23D81DC9790300113326 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8E9F23D91DC9790300113326 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8EA4724C1D8F8CEA00465679 /* AffineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffineViewController.h; sourceTree = "<group>"; };
+		8EA4724D1D8F8CEA00465679 /* AffineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffineViewController.m; sourceTree = "<group>"; };
+		8EB191561D8E312A0036320F /* AnchorPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorPointViewController.h; sourceTree = "<group>"; };
+		8EB191571D8E312A0036320F /* AnchorPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchorPointViewController.m; sourceTree = "<group>"; };
+		8EB191581D8E312A0036320F /* CustomDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDrawingViewController.h; sourceTree = "<group>"; };
+		8EB191591D8E312A0036320F /* CustomDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDrawingViewController.m; sourceTree = "<group>"; };
+		8EB1915A1D8E312A0036320F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8EB1915B1D8E312A0036320F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8EB1915C1D8E312A0036320F /* VisualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualViewController.h; sourceTree = "<group>"; };
+		8EB1915D1D8E312A0036320F /* VisualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualViewController.m; sourceTree = "<group>"; };
+		8EB191621D8E3B8D0036320F /* MaskingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskingViewController.h; sourceTree = "<group>"; };
+		8EB191631D8E3B8D0036320F /* MaskingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskingViewController.m; sourceTree = "<group>"; };
+		8EBC24701DC2230600EFA3E6 /* CAShapeLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerViewController.h; sourceTree = "<group>"; };
+		8EBC24711DC2230600EFA3E6 /* CAShapeLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E9006971D87ABA6006B4DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9006B01D87ABA6006B4DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E9006911D87ABA6006B4DB0 = {
+			isa = PBXGroup;
+			children = (
+				8E90069C1D87ABA6006B4DB0 /* FYCoreAnimation */,
+				8E9006B61D87ABA6006B4DB0 /* FYCoreAnimationTests */,
+				8E90069B1D87ABA6006B4DB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E90069B1D87ABA6006B4DB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E90069A1D87ABA6006B4DB0 /* FYCoreAnimation.app */,
+				8E9006B31D87ABA6006B4DB0 /* FYCoreAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E90069C1D87ABA6006B4DB0 /* FYCoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8E9006A01D87ABA6006B4DB0 /* AppDelegate.h */,
+				8E9006A11D87ABA6006B4DB0 /* AppDelegate.m */,
+				8EB191551D8E312A0036320F /* ViewController */,
+				8E9006A61D87ABA6006B4DB0 /* Main.storyboard */,
+				8E9006A91D87ABA6006B4DB0 /* Assets.xcassets */,
+				8E9006AB1D87ABA6006B4DB0 /* LaunchScreen.storyboard */,
+				8E9006AE1D87ABA6006B4DB0 /* Info.plist */,
+				8E90069D1D87ABA6006B4DB0 /* Supporting Files */,
+			);
+			path = FYCoreAnimation;
+			sourceTree = "<group>";
+		};
+		8E90069D1D87ABA6006B4DB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E90069E1D87ABA6006B4DB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E9006B61D87ABA6006B4DB0 /* FYCoreAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E9006B71D87ABA6006B4DB0 /* FYCoreAnimationTests.m */,
+				8E9006B91D87ABA6006B4DB0 /* Info.plist */,
+			);
+			path = FYCoreAnimationTests;
+			sourceTree = "<group>";
+		};
+		8EB191551D8E312A0036320F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1915A1D8E312A0036320F /* ViewController.h */,
+				8EB1915B1D8E312A0036320F /* ViewController.m */,
+				8EB191561D8E312A0036320F /* AnchorPointViewController.h */,
+				8EB191571D8E312A0036320F /* AnchorPointViewController.m */,
+				8EB191581D8E312A0036320F /* CustomDrawingViewController.h */,
+				8EB191591D8E312A0036320F /* CustomDrawingViewController.m */,
+				8EB1915C1D8E312A0036320F /* VisualViewController.h */,
+				8EB1915D1D8E312A0036320F /* VisualViewController.m */,
+				8EB191621D8E3B8D0036320F /* MaskingViewController.h */,
+				8EB191631D8E3B8D0036320F /* MaskingViewController.m */,
+				8EA4724C1D8F8CEA00465679 /* AffineViewController.h */,
+				8EA4724D1D8F8CEA00465679 /* AffineViewController.m */,
+				8E9A53091D92278000E1BCB1 /* TestCornerRadiusViewController.h */,
+				8E9A530A1D92278000E1BCB1 /* TestCornerRadiusViewController.m */,
+				8E9A530F1D92695400E1BCB1 /* SolidObjectViewController.h */,
+				8E9A53101D92695400E1BCB1 /* SolidObjectViewController.m */,
+				8E9A53121D926AA500E1BCB1 /* SolidObjectViewController.xib */,
+				8EBC24701DC2230600EFA3E6 /* CAShapeLayerViewController.h */,
+				8EBC24711DC2230600EFA3E6 /* CAShapeLayerViewController.m */,
+				8E9F23D81DC9790300113326 /* MainViewController.h */,
+				8E9F23D91DC9790300113326 /* MainViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E9006991D87ABA6006B4DB0 /* FYCoreAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9006BC1D87ABA6006B4DB0 /* Build configuration list for PBXNativeTarget "FYCoreAnimation" */;
+			buildPhases = (
+				8E9006961D87ABA6006B4DB0 /* Sources */,
+				8E9006971D87ABA6006B4DB0 /* Frameworks */,
+				8E9006981D87ABA6006B4DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYCoreAnimation;
+			productName = FYCoreAnimation;
+			productReference = 8E90069A1D87ABA6006B4DB0 /* FYCoreAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E9006B21D87ABA6006B4DB0 /* FYCoreAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9006BF1D87ABA6006B4DB0 /* Build configuration list for PBXNativeTarget "FYCoreAnimationTests" */;
+			buildPhases = (
+				8E9006AF1D87ABA6006B4DB0 /* Sources */,
+				8E9006B01D87ABA6006B4DB0 /* Frameworks */,
+				8E9006B11D87ABA6006B4DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E9006B51D87ABA6006B4DB0 /* PBXTargetDependency */,
+			);
+			name = FYCoreAnimationTests;
+			productName = FYCoreAnimationTests;
+			productReference = 8E9006B31D87ABA6006B4DB0 /* FYCoreAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E9006921D87ABA6006B4DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = com.fly;
+				TargetAttributes = {
+					8E9006991D87ABA6006B4DB0 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = X36232M6Y9;
+					};
+					8E9006B21D87ABA6006B4DB0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8E9006991D87ABA6006B4DB0;
+					};
+				};
+			};
+			buildConfigurationList = 8E9006951D87ABA6006B4DB0 /* Build configuration list for PBXProject "FYCoreAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E9006911D87ABA6006B4DB0;
+			productRefGroup = 8E90069B1D87ABA6006B4DB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E9006991D87ABA6006B4DB0 /* FYCoreAnimation */,
+				8E9006B21D87ABA6006B4DB0 /* FYCoreAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E9006981D87ABA6006B4DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9006AD1D87ABA6006B4DB0 /* LaunchScreen.storyboard in Resources */,
+				8E9006AA1D87ABA6006B4DB0 /* Assets.xcassets in Resources */,
+				8E9006A81D87ABA6006B4DB0 /* Main.storyboard in Resources */,
+				8E9A53131D926AA500E1BCB1 /* SolidObjectViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9006B11D87ABA6006B4DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E9006961D87ABA6006B4DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB191601D8E312A0036320F /* ViewController.m in Sources */,
+				8E9A53111D92695400E1BCB1 /* SolidObjectViewController.m in Sources */,
+				8EA4724E1D8F8CEA00465679 /* AffineViewController.m in Sources */,
+				8E9006A21D87ABA6006B4DB0 /* AppDelegate.m in Sources */,
+				8E9F23DA1DC9790300113326 /* MainViewController.m in Sources */,
+				8EB191611D8E312A0036320F /* VisualViewController.m in Sources */,
+				8EB1915E1D8E312A0036320F /* AnchorPointViewController.m in Sources */,
+				8EB1915F1D8E312A0036320F /* CustomDrawingViewController.m in Sources */,
+				8EBC24721DC2230600EFA3E6 /* CAShapeLayerViewController.m in Sources */,
+				8EB191641D8E3B8D0036320F /* MaskingViewController.m in Sources */,
+				8E9A530B1D92278000E1BCB1 /* TestCornerRadiusViewController.m in Sources */,
+				8E90069F1D87ABA6006B4DB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9006AF1D87ABA6006B4DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9006B81D87ABA6006B4DB0 /* FYCoreAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E9006B51D87ABA6006B4DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E9006991D87ABA6006B4DB0 /* FYCoreAnimation */;
+			targetProxy = 8E9006B41D87ABA6006B4DB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E9006A61D87ABA6006B4DB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E9006A71D87ABA6006B4DB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E9006AB1D87ABA6006B4DB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E9006AC1D87ABA6006B4DB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E9006BA1D87ABA6006B4DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E9006BB1D87ABA6006B4DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E9006BD1D87ABA6006B4DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X36232M6Y9;
+				INFOPLIST_FILE = FYCoreAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.FYCoreAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E9006BE1D87ABA6006B4DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X36232M6Y9;
+				INFOPLIST_FILE = FYCoreAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.FYCoreAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E9006C01D87ABA6006B4DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FYCoreAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.FYCoreAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYCoreAnimation.app/FYCoreAnimation";
+			};
+			name = Debug;
+		};
+		8E9006C11D87ABA6006B4DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FYCoreAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.FYCoreAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYCoreAnimation.app/FYCoreAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E9006951D87ABA6006B4DB0 /* Build configuration list for PBXProject "FYCoreAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9006BA1D87ABA6006B4DB0 /* Debug */,
+				8E9006BB1D87ABA6006B4DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9006BC1D87ABA6006B4DB0 /* Build configuration list for PBXNativeTarget "FYCoreAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9006BD1D87ABA6006B4DB0 /* Debug */,
+				8E9006BE1D87ABA6006B4DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9006BF1D87ABA6006B4DB0 /* Build configuration list for PBXNativeTarget "FYCoreAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9006C01D87ABA6006B4DB0 /* Debug */,
+				8E9006C11D87ABA6006B4DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E9006921D87ABA6006B4DB0 /* Project object */;
+}
