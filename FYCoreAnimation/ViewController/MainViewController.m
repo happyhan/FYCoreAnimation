@@ -14,6 +14,7 @@
 #import "CAShapeLayerViewController.h"
 
 #import "SolidObjectViewController.h"
+#import "FYSimpleAnimationViewController.h"
 
 @interface MainViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -31,7 +32,7 @@
     self.sectionArray = [NSMutableArray array];
     
     self.titleArray = @[@"常用功能",@"锚点",@"遮罩",@"圆角",@"CAShape"];
-    NSArray *xibTitleArray = @[@"固体对象"];
+    NSArray *xibTitleArray = @[@"固体对象",@"隐式动画"];
     self.idArray = @[@"normal",@"anchor",@"mask",@"corner",@"shape"];
     [self.sectionArray addObject:self.titleArray];
     [self.sectionArray addObject:xibTitleArray];
@@ -68,10 +69,32 @@
         UIViewController *vc = [story instantiateViewControllerWithIdentifier:self.idArray[indexPath.row]];
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.section == 1){
-       
-        SolidObjectViewController *vc = [[SolidObjectViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
+        switch (indexPath.row) {
+            case 0:
+            {
+                SolidObjectViewController *vc = [[SolidObjectViewController alloc] init];
+                [self.navigationController pushViewController:vc animated:YES];
+                
+                break;
+            }
+            case 1:
+            {
+                FYSimpleAnimationViewController *vc = [[FYSimpleAnimationViewController alloc] init];
+                [self.navigationController pushViewController:vc animated:YES];
+                
+                break;
+            }
+                
+            default:
+                break;
+        }
+        
+        
     }
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 10;
 }
 
 - (void)didReceiveMemoryWarning {

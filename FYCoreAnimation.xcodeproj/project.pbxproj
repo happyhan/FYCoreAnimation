@@ -16,6 +16,8 @@
 		8E9A530B1D92278000E1BCB1 /* TestCornerRadiusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A530A1D92278000E1BCB1 /* TestCornerRadiusViewController.m */; };
 		8E9A53111D92695400E1BCB1 /* SolidObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A53101D92695400E1BCB1 /* SolidObjectViewController.m */; };
 		8E9A53131D926AA500E1BCB1 /* SolidObjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9A53121D926AA500E1BCB1 /* SolidObjectViewController.xib */; };
+		8E9D54A71DDD58D100FCBAAD /* FYSimpleAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9D54A51DDD58D100FCBAAD /* FYSimpleAnimationViewController.m */; };
+		8E9D54A81DDD58D100FCBAAD /* FYSimpleAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9D54A61DDD58D100FCBAAD /* FYSimpleAnimationViewController.xib */; };
 		8E9F23DA1DC9790300113326 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F23D91DC9790300113326 /* MainViewController.m */; };
 		8EA4724E1D8F8CEA00465679 /* AffineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4724D1D8F8CEA00465679 /* AffineViewController.m */; };
 		8EB1915E1D8E312A0036320F /* AnchorPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB191571D8E312A0036320F /* AnchorPointViewController.m */; };
@@ -53,8 +55,11 @@
 		8E9A530F1D92695400E1BCB1 /* SolidObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolidObjectViewController.h; sourceTree = "<group>"; };
 		8E9A53101D92695400E1BCB1 /* SolidObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolidObjectViewController.m; sourceTree = "<group>"; };
 		8E9A53121D926AA500E1BCB1 /* SolidObjectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SolidObjectViewController.xib; sourceTree = "<group>"; };
-		8E9F23D81DC9790300113326 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		8E9F23D91DC9790300113326 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8E9D54A41DDD58D100FCBAAD /* FYSimpleAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYSimpleAnimationViewController.h; sourceTree = "<group>"; };
+		8E9D54A51DDD58D100FCBAAD /* FYSimpleAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYSimpleAnimationViewController.m; sourceTree = "<group>"; };
+		8E9D54A61DDD58D100FCBAAD /* FYSimpleAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYSimpleAnimationViewController.xib; sourceTree = "<group>"; };
+		8E9F23D81DC9790300113326 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ViewController/MainViewController.h; sourceTree = "<group>"; };
+		8E9F23D91DC9790300113326 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ViewController/MainViewController.m; sourceTree = "<group>"; };
 		8EA4724C1D8F8CEA00465679 /* AffineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffineViewController.h; sourceTree = "<group>"; };
 		8EA4724D1D8F8CEA00465679 /* AffineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffineViewController.m; sourceTree = "<group>"; };
 		8EB191561D8E312A0036320F /* AnchorPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorPointViewController.h; sourceTree = "<group>"; };
@@ -112,7 +117,10 @@
 			children = (
 				8E9006A01D87ABA6006B4DB0 /* AppDelegate.h */,
 				8E9006A11D87ABA6006B4DB0 /* AppDelegate.m */,
+				8E9F23D81DC9790300113326 /* MainViewController.h */,
+				8E9F23D91DC9790300113326 /* MainViewController.m */,
 				8EB191551D8E312A0036320F /* ViewController */,
+				8E9D54A31DDD56AC00FCBAAD /* 隐式动画 */,
 				8E9006A61D87ABA6006B4DB0 /* Main.storyboard */,
 				8E9006A91D87ABA6006B4DB0 /* Assets.xcassets */,
 				8E9006AB1D87ABA6006B4DB0 /* LaunchScreen.storyboard */,
@@ -139,6 +147,17 @@
 			path = FYCoreAnimationTests;
 			sourceTree = "<group>";
 		};
+		8E9D54A31DDD56AC00FCBAAD /* 隐式动画 */ = {
+			isa = PBXGroup;
+			children = (
+				8E9D54A41DDD58D100FCBAAD /* FYSimpleAnimationViewController.h */,
+				8E9D54A51DDD58D100FCBAAD /* FYSimpleAnimationViewController.m */,
+				8E9D54A61DDD58D100FCBAAD /* FYSimpleAnimationViewController.xib */,
+			);
+			name = "隐式动画";
+			path = ImplicitAnimation;
+			sourceTree = "<group>";
+		};
 		8EB191551D8E312A0036320F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,8 +180,6 @@
 				8E9A53121D926AA500E1BCB1 /* SolidObjectViewController.xib */,
 				8EBC24701DC2230600EFA3E6 /* CAShapeLayerViewController.h */,
 				8EBC24711DC2230600EFA3E6 /* CAShapeLayerViewController.m */,
-				8E9F23D81DC9790300113326 /* MainViewController.h */,
-				8E9F23D91DC9790300113326 /* MainViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -211,6 +228,7 @@
 		8E9006921D87ABA6006B4DB0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FY;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = com.fly;
 				TargetAttributes = {
@@ -252,6 +270,7 @@
 				8E9006AA1D87ABA6006B4DB0 /* Assets.xcassets in Resources */,
 				8E9006A81D87ABA6006B4DB0 /* Main.storyboard in Resources */,
 				8E9A53131D926AA500E1BCB1 /* SolidObjectViewController.xib in Resources */,
+				8E9D54A81DDD58D100FCBAAD /* FYSimpleAnimationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +293,7 @@
 				8EA4724E1D8F8CEA00465679 /* AffineViewController.m in Sources */,
 				8E9006A21D87ABA6006B4DB0 /* AppDelegate.m in Sources */,
 				8E9F23DA1DC9790300113326 /* MainViewController.m in Sources */,
+				8E9D54A71DDD58D100FCBAAD /* FYSimpleAnimationViewController.m in Sources */,
 				8EB191611D8E312A0036320F /* VisualViewController.m in Sources */,
 				8EB1915E1D8E312A0036320F /* AnchorPointViewController.m in Sources */,
 				8EB1915F1D8E312A0036320F /* CustomDrawingViewController.m in Sources */,
