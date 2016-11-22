@@ -20,6 +20,8 @@
 		8E9D54A81DDD58D100FCBAAD /* FYSimpleAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9D54A61DDD58D100FCBAAD /* FYSimpleAnimationViewController.xib */; };
 		8E9F23DA1DC9790300113326 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F23D91DC9790300113326 /* MainViewController.m */; };
 		8EA4724E1D8F8CEA00465679 /* AffineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4724D1D8F8CEA00465679 /* AffineViewController.m */; };
+		8EB030571DDEF36400C8ADFD /* FYBasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB030551DDEF36400C8ADFD /* FYBasicAnimationViewController.m */; };
+		8EB030581DDEF36400C8ADFD /* FYBasicAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB030561DDEF36400C8ADFD /* FYBasicAnimationViewController.xib */; };
 		8EB1915E1D8E312A0036320F /* AnchorPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB191571D8E312A0036320F /* AnchorPointViewController.m */; };
 		8EB1915F1D8E312A0036320F /* CustomDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB191591D8E312A0036320F /* CustomDrawingViewController.m */; };
 		8EB191601D8E312A0036320F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1915B1D8E312A0036320F /* ViewController.m */; };
@@ -62,6 +64,9 @@
 		8E9F23D91DC9790300113326 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ViewController/MainViewController.m; sourceTree = "<group>"; };
 		8EA4724C1D8F8CEA00465679 /* AffineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffineViewController.h; sourceTree = "<group>"; };
 		8EA4724D1D8F8CEA00465679 /* AffineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffineViewController.m; sourceTree = "<group>"; };
+		8EB030541DDEF36400C8ADFD /* FYBasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBasicAnimationViewController.h; sourceTree = "<group>"; };
+		8EB030551DDEF36400C8ADFD /* FYBasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYBasicAnimationViewController.m; sourceTree = "<group>"; };
+		8EB030561DDEF36400C8ADFD /* FYBasicAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYBasicAnimationViewController.xib; sourceTree = "<group>"; };
 		8EB191561D8E312A0036320F /* AnchorPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorPointViewController.h; sourceTree = "<group>"; };
 		8EB191571D8E312A0036320F /* AnchorPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchorPointViewController.m; sourceTree = "<group>"; };
 		8EB191581D8E312A0036320F /* CustomDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDrawingViewController.h; sourceTree = "<group>"; };
@@ -153,6 +158,9 @@
 				8E9D54A41DDD58D100FCBAAD /* FYSimpleAnimationViewController.h */,
 				8E9D54A51DDD58D100FCBAAD /* FYSimpleAnimationViewController.m */,
 				8E9D54A61DDD58D100FCBAAD /* FYSimpleAnimationViewController.xib */,
+				8EB030541DDEF36400C8ADFD /* FYBasicAnimationViewController.h */,
+				8EB030551DDEF36400C8ADFD /* FYBasicAnimationViewController.m */,
+				8EB030561DDEF36400C8ADFD /* FYBasicAnimationViewController.xib */,
 			);
 			name = "隐式动画";
 			path = ImplicitAnimation;
@@ -269,6 +277,7 @@
 				8E9006AD1D87ABA6006B4DB0 /* LaunchScreen.storyboard in Resources */,
 				8E9006AA1D87ABA6006B4DB0 /* Assets.xcassets in Resources */,
 				8E9006A81D87ABA6006B4DB0 /* Main.storyboard in Resources */,
+				8EB030581DDEF36400C8ADFD /* FYBasicAnimationViewController.xib in Resources */,
 				8E9A53131D926AA500E1BCB1 /* SolidObjectViewController.xib in Resources */,
 				8E9D54A81DDD58D100FCBAAD /* FYSimpleAnimationViewController.xib in Resources */,
 			);
@@ -288,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB030571DDEF36400C8ADFD /* FYBasicAnimationViewController.m in Sources */,
 				8EB191601D8E312A0036320F /* ViewController.m in Sources */,
 				8E9A53111D92695400E1BCB1 /* SolidObjectViewController.m in Sources */,
 				8EA4724E1D8F8CEA00465679 /* AffineViewController.m in Sources */,

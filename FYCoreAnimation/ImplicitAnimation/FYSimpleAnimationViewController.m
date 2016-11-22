@@ -30,7 +30,6 @@
     transition.subtype = kCATransitionFromLeft;
     self.colorLayer.actions = @{@"backgroundColor":transition};
     
-    
     [self.contentView.layer addSublayer:self.colorLayer];
 }
 

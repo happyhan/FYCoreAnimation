@@ -15,6 +15,7 @@
 
 #import "SolidObjectViewController.h"
 #import "FYSimpleAnimationViewController.h"
+#import "FYBasicAnimationViewController.h"
 
 @interface MainViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -32,7 +33,7 @@
     self.sectionArray = [NSMutableArray array];
     
     self.titleArray = @[@"常用功能",@"锚点",@"遮罩",@"圆角",@"CAShape"];
-    NSArray *xibTitleArray = @[@"固体对象",@"隐式动画"];
+    NSArray *xibTitleArray = @[@"固体对象",@"隐式动画",@"显示动画"];
     self.idArray = @[@"normal",@"anchor",@"mask",@"corner",@"shape"];
     [self.sectionArray addObject:self.titleArray];
     [self.sectionArray addObject:xibTitleArray];
@@ -84,7 +85,13 @@
                 
                 break;
             }
+            case 2:
+            {
+                FYBasicAnimationViewController *vc = [[FYBasicAnimationViewController alloc] init];
+                [self.navigationController pushViewController:vc animated:YES];
                 
+                break;
+            }
             default:
                 break;
         }
