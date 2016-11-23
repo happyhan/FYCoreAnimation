@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E7471C01DE5938A00936819 /* FYMediaTimingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7471BE1DE5938A00936819 /* FYMediaTimingViewController.m */; };
+		8E7471C11DE5938A00936819 /* FYMediaTimingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7471BF1DE5938A00936819 /* FYMediaTimingViewController.xib */; };
 		8E90069F1D87ABA6006B4DB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90069E1D87ABA6006B4DB0 /* main.m */; };
 		8E9006A21D87ABA6006B4DB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9006A11D87ABA6006B4DB0 /* AppDelegate.m */; };
 		8E9006A81D87ABA6006B4DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9006A61D87ABA6006B4DB0 /* Main.storyboard */; };
@@ -41,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E7471BD1DE5938A00936819 /* FYMediaTimingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYMediaTimingViewController.h; sourceTree = "<group>"; };
+		8E7471BE1DE5938A00936819 /* FYMediaTimingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYMediaTimingViewController.m; sourceTree = "<group>"; };
+		8E7471BF1DE5938A00936819 /* FYMediaTimingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYMediaTimingViewController.xib; sourceTree = "<group>"; };
 		8E90069A1D87ABA6006B4DB0 /* FYCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E90069E1D87ABA6006B4DB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8E9006A01D87ABA6006B4DB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,7 +130,7 @@
 				8E9F23D81DC9790300113326 /* MainViewController.h */,
 				8E9F23D91DC9790300113326 /* MainViewController.m */,
 				8EB191551D8E312A0036320F /* ViewController */,
-				8E9D54A31DDD56AC00FCBAAD /* 隐式动画 */,
+				8E9D54A31DDD56AC00FCBAAD /* 动画 */,
 				8E9006A61D87ABA6006B4DB0 /* Main.storyboard */,
 				8E9006A91D87ABA6006B4DB0 /* Assets.xcassets */,
 				8E9006AB1D87ABA6006B4DB0 /* LaunchScreen.storyboard */,
@@ -152,7 +157,7 @@
 			path = FYCoreAnimationTests;
 			sourceTree = "<group>";
 		};
-		8E9D54A31DDD56AC00FCBAAD /* 隐式动画 */ = {
+		8E9D54A31DDD56AC00FCBAAD /* 动画 */ = {
 			isa = PBXGroup;
 			children = (
 				8E9D54A41DDD58D100FCBAAD /* FYSimpleAnimationViewController.h */,
@@ -161,8 +166,11 @@
 				8EB030541DDEF36400C8ADFD /* FYBasicAnimationViewController.h */,
 				8EB030551DDEF36400C8ADFD /* FYBasicAnimationViewController.m */,
 				8EB030561DDEF36400C8ADFD /* FYBasicAnimationViewController.xib */,
+				8E7471BD1DE5938A00936819 /* FYMediaTimingViewController.h */,
+				8E7471BE1DE5938A00936819 /* FYMediaTimingViewController.m */,
+				8E7471BF1DE5938A00936819 /* FYMediaTimingViewController.xib */,
 			);
-			name = "隐式动画";
+			name = "动画";
 			path = ImplicitAnimation;
 			sourceTree = "<group>";
 		};
@@ -279,6 +287,7 @@
 				8E9006A81D87ABA6006B4DB0 /* Main.storyboard in Resources */,
 				8EB030581DDEF36400C8ADFD /* FYBasicAnimationViewController.xib in Resources */,
 				8E9A53131D926AA500E1BCB1 /* SolidObjectViewController.xib in Resources */,
+				8E7471C11DE5938A00936819 /* FYMediaTimingViewController.xib in Resources */,
 				8E9D54A81DDD58D100FCBAAD /* FYSimpleAnimationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7471C01DE5938A00936819 /* FYMediaTimingViewController.m in Sources */,
 				8EB030571DDEF36400C8ADFD /* FYBasicAnimationViewController.m in Sources */,
 				8EB191601D8E312A0036320F /* ViewController.m in Sources */,
 				8E9A53111D92695400E1BCB1 /* SolidObjectViewController.m in Sources */,
