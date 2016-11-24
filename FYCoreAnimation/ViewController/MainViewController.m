@@ -17,6 +17,7 @@
 #import "FYSimpleAnimationViewController.h"
 #import "FYBasicAnimationViewController.h"
 #import "FYMediaTimingViewController.h"
+#import "FYTimingFunctionViewController.h"
 
 @interface MainViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -34,7 +35,7 @@
     self.sectionArray = [NSMutableArray array];
     
     self.titleArray = @[@"常用功能",@"锚点",@"遮罩",@"圆角",@"CAShape"];
-    NSArray *xibTitleArray = @[@"固体对象",@"隐式动画",@"显示动画",@"图层时间"];
+    NSArray *xibTitleArray = @[@"固体对象",@"隐式动画",@"显示动画",@"图层时间",@"缓冲"];
     self.idArray = @[@"normal",@"anchor",@"mask",@"corner",@"shape"];
     [self.sectionArray addObject:self.titleArray];
     [self.sectionArray addObject:xibTitleArray];
@@ -96,6 +97,13 @@
             case 3:
             {
                 FYMediaTimingViewController *vc = [[FYMediaTimingViewController alloc] init];
+                [self.navigationController pushViewController:vc animated:YES];
+                
+                break;
+            }
+            case 4:
+            {
+                FYTimingFunctionViewController *vc = [[FYTimingFunctionViewController alloc] init];
                 [self.navigationController pushViewController:vc animated:YES];
                 
                 break;

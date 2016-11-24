@@ -29,6 +29,8 @@
 		8EB191601D8E312A0036320F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1915B1D8E312A0036320F /* ViewController.m */; };
 		8EB191611D8E312A0036320F /* VisualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1915D1D8E312A0036320F /* VisualViewController.m */; };
 		8EB191641D8E3B8D0036320F /* MaskingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB191631D8E3B8D0036320F /* MaskingViewController.m */; };
+		8EB628391DE687C80019FEFE /* FYTimingFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB628371DE687C80019FEFE /* FYTimingFunctionViewController.m */; };
+		8EB6283A1DE687C80019FEFE /* FYTimingFunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB628381DE687C80019FEFE /* FYTimingFunctionViewController.xib */; };
 		8EBC24721DC2230600EFA3E6 /* CAShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBC24711DC2230600EFA3E6 /* CAShapeLayerViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +84,9 @@
 		8EB1915D1D8E312A0036320F /* VisualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualViewController.m; sourceTree = "<group>"; };
 		8EB191621D8E3B8D0036320F /* MaskingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskingViewController.h; sourceTree = "<group>"; };
 		8EB191631D8E3B8D0036320F /* MaskingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskingViewController.m; sourceTree = "<group>"; };
+		8EB628361DE687C80019FEFE /* FYTimingFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTimingFunctionViewController.h; sourceTree = "<group>"; };
+		8EB628371DE687C80019FEFE /* FYTimingFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTimingFunctionViewController.m; sourceTree = "<group>"; };
+		8EB628381DE687C80019FEFE /* FYTimingFunctionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYTimingFunctionViewController.xib; sourceTree = "<group>"; };
 		8EBC24701DC2230600EFA3E6 /* CAShapeLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerViewController.h; sourceTree = "<group>"; };
 		8EBC24711DC2230600EFA3E6 /* CAShapeLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,7 +134,7 @@
 				8E9006A11D87ABA6006B4DB0 /* AppDelegate.m */,
 				8E9F23D81DC9790300113326 /* MainViewController.h */,
 				8E9F23D91DC9790300113326 /* MainViewController.m */,
-				8EB191551D8E312A0036320F /* ViewController */,
+				8EB191551D8E312A0036320F /* 图层及变换 */,
 				8E9D54A31DDD56AC00FCBAAD /* 动画 */,
 				8E9006A61D87ABA6006B4DB0 /* Main.storyboard */,
 				8E9006A91D87ABA6006B4DB0 /* Assets.xcassets */,
@@ -169,12 +174,15 @@
 				8E7471BD1DE5938A00936819 /* FYMediaTimingViewController.h */,
 				8E7471BE1DE5938A00936819 /* FYMediaTimingViewController.m */,
 				8E7471BF1DE5938A00936819 /* FYMediaTimingViewController.xib */,
+				8EB628361DE687C80019FEFE /* FYTimingFunctionViewController.h */,
+				8EB628371DE687C80019FEFE /* FYTimingFunctionViewController.m */,
+				8EB628381DE687C80019FEFE /* FYTimingFunctionViewController.xib */,
 			);
 			name = "动画";
 			path = ImplicitAnimation;
 			sourceTree = "<group>";
 		};
-		8EB191551D8E312A0036320F /* ViewController */ = {
+		8EB191551D8E312A0036320F /* 图层及变换 */ = {
 			isa = PBXGroup;
 			children = (
 				8EB1915A1D8E312A0036320F /* ViewController.h */,
@@ -197,6 +205,7 @@
 				8EBC24701DC2230600EFA3E6 /* CAShapeLayerViewController.h */,
 				8EBC24711DC2230600EFA3E6 /* CAShapeLayerViewController.m */,
 			);
+			name = "图层及变换";
 			path = ViewController;
 			sourceTree = "<group>";
 		};
@@ -285,6 +294,7 @@
 				8E9006AD1D87ABA6006B4DB0 /* LaunchScreen.storyboard in Resources */,
 				8E9006AA1D87ABA6006B4DB0 /* Assets.xcassets in Resources */,
 				8E9006A81D87ABA6006B4DB0 /* Main.storyboard in Resources */,
+				8EB6283A1DE687C80019FEFE /* FYTimingFunctionViewController.xib in Resources */,
 				8EB030581DDEF36400C8ADFD /* FYBasicAnimationViewController.xib in Resources */,
 				8E9A53131D926AA500E1BCB1 /* SolidObjectViewController.xib in Resources */,
 				8E7471C11DE5938A00936819 /* FYMediaTimingViewController.xib in Resources */,
@@ -320,6 +330,7 @@
 				8EBC24721DC2230600EFA3E6 /* CAShapeLayerViewController.m in Sources */,
 				8EB191641D8E3B8D0036320F /* MaskingViewController.m in Sources */,
 				8E9A530B1D92278000E1BCB1 /* TestCornerRadiusViewController.m in Sources */,
+				8EB628391DE687C80019FEFE /* FYTimingFunctionViewController.m in Sources */,
 				8E90069F1D87ABA6006B4DB0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
